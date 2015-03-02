@@ -1,0 +1,6 @@
+acha:
+    image: yokogawa/acha
+    ports:
+        - 127.0.0.1:31080:8080
+    volumes:
+        - ./:/work
